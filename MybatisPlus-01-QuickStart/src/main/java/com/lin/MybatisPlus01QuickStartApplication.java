@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.lin.mapper")
+@MapperScan(basePackages = {"com.lin.mapper"})
 public class MybatisPlus01QuickStartApplication {
 
     public static void main(String[] args) {
